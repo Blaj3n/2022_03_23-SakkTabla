@@ -1,0 +1,18 @@
+h1 {
+  margin: 10px;
+  text-align: center;
+}
+#container {
+  display: grid;
+  border: 1px solid black;
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+#container div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
